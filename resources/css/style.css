@@ -34,6 +34,10 @@ nav li a:hover {
     margin: 5px 0;
 }
 
+.nav-mobile {
+    display: none;
+}
+
 main {
     padding-top: 25px;
     padding-bottom: 125px;
@@ -90,6 +94,10 @@ p {
 
 .center {
     text-align: center;
+}
+
+.justify {
+    text-align: justify;
 }
 
 .border {
