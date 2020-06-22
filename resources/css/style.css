@@ -129,28 +129,8 @@ p {
     margin-left: 5%;
 }
 
-.nav-mobile {
-    display: none;
-}
-
 #subheader {
     text-align: left;
     padding: 10px 20px;
     margin: 10px 0 5px 8%;
-}
-
-@media only screen and (max-width: 1000px) {
-    header {
-        margin: 0 auto;
-    }
-
-    .nav-desktop {
-        display: none
-    }
-
-    .nav-mobile {
-        display: block;
-        width: fit-content;
-        
-    }
 }

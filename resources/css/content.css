@@ -29,13 +29,16 @@ article p {
     line-height: 1.5em;
 }
 
-article figure {
-    float: right;
-    margin: 20px 20px 10px 20px;
-}
-
 article img {
     border-radius: 400px;
+    width: auto;
+}
+
+#aboutme-pic {
+    position: relative;
+    width: auto;
+    float: right;
+    margin: 20px;
 }
 
 .consult-intro {
@@ -54,18 +57,4 @@ article img {
     padding-top: 20px;
 }
 
-#pictures {
-    margin-top: 50px;
-}
 
-@media only screen and (max-width: 1000px) {
-    .content-wrap {
-        margin: 0 10%;
-    }
-
-    article figure {
-        text-align: center;
-        float: none;
-        width: auto;
-    }
-}
