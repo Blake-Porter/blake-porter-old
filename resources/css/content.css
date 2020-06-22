@@ -1,0 +1,75 @@
+section {
+    font-size: 25px;
+    max-width: 1000px;
+    text-align: center;
+    height: auto;
+    margin: 30px auto;
+    padding: 5px 50px;
+}
+
+section p {
+    line-height: 2em;
+    font-weight: 400;
+}
+
+article {
+    margin: 10px auto;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+article ul {
+    list-style-type: square;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+article p {
+    line-height: 1.5em;
+}
+
+article figure {
+    float: right;
+    margin: 20px 20px 10px 20px;
+}
+
+article img {
+    border-radius: 400px;
+    width: 500px;
+}
+
+.consult-intro {
+    margin: 30px 20%;
+}
+
+.content-wrap {
+    margin: 10px 15%;
+}
+
+#aboutme-wrap {
+    padding: 10px 15px;
+}
+
+#aboutme-wrap p {
+    padding-top: 20px;
+}
+
+#pictures {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content-wrap {
+        margin: 0 10%;
+    }
+
+    article figure {
+        text-align: center;
+        float: none;
+    }
+    article img  {
+        border-radius: 400px;
+        width: 350px;
+    }
+}

@@ -1,0 +1,95 @@
+/* Navigation */
+.slide li {
+    margin-top: 5%;
+    display: inline-block;
+}
+
+/* Slideshow container */
+.fade-background {
+    background-color: rgba(0 , 0, 0, .5);
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    margin-bottom: 5%;
+    display: fixed;
+    bottom: 3%
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 1200px;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    background-color: rgba(91, 95, 100, .2);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: white;
+    background-color: rgba(91, 95, 100, .5);
+    font-size: 23px;
+    margin-left: 5%;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+}
+
+/* Number of pics */
+.numbertext {
+    color: white;
+    background-color: rgba(91, 95, 100, .5);
+    font-size: 18px;
+    width: fit-content;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #717171;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.active, .dot:hover {
+    background-color: #bbb;
+}
