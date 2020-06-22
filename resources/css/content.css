@@ -36,7 +36,6 @@ article figure {
 
 article img {
     border-radius: 400px;
-    width: 500px;
 }
 
 .consult-intro {
@@ -67,9 +66,5 @@ article img {
     article figure {
         text-align: center;
         float: none;
-    }
-    article img  {
-        border-radius: 400px;
-        width: 350px;
     }
 }
