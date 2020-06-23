@@ -14,7 +14,7 @@ nav ul {
     list-style-type: none;
     margin-left: 8%;
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 nav li a {
@@ -62,14 +62,14 @@ ul p {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 10px 40px;
     margin-left: 8%;
     margin-top: 50px;
 }
 
 h2, h3 {
-    font-size: 35px;
+    font-size: 30px;
     padding: 5px;
     text-align: center;
 }
@@ -81,7 +81,7 @@ h5 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 15px;
 }
 
@@ -159,5 +159,13 @@ p {
 
     nav ul {
         margin: 10px auto;
+    }
+
+    .nav-horizontal li {
+        display: block;
+    }
+
+    #subheader {
+        margin: 0 auto;
     }
 }
