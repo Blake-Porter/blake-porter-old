@@ -4,7 +4,7 @@ section {
     text-align: center;
     height: auto;
     margin: 0 auto;
-    padding: 5px 50px;
+    padding: 5px 25px;
 }
 
 section p {
@@ -45,6 +45,10 @@ article p {
     text-align: center;
 }
 
+.intro-wrap {
+    margin: 25px 20%;
+}
+
 .content-wrap {
     margin: 20px 15%;
 }
@@ -58,6 +62,10 @@ article p {
 }
 
 @media only screen and (max-width: 975px) {
+    .intro-wrap {
+        margin: 10px 14%;
+    }
+
     .content-wrap {
         margin: 10px 8%;
     }
