@@ -36,17 +36,7 @@ nav li a {
     }
 
 nav li a:hover {
-    background-color: rgba(91, 95, 100, .8);
-}
-
-.p-link a {
-    color: #a1a9b3;;
-    font-weight: 600;
-}
-
-.p-link a:visited {
-    color: #a1a9b3;
-    font-weight: 600;
+    background-color: rgba(191, 115, 74, .8);
 }
 
 .nav-horizontal li {
@@ -162,6 +152,16 @@ p {
 .picture-set{
     margin-right: 5%;
     margin-left: 5%;
+}
+
+.p-link a {
+    color: #bf744b;
+    font-weight: 600;
+}
+
+.p-link a:visited {
+    color: #bf744b;
+    font-weight: 600;
 }
 
 #subheader {
