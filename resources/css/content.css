@@ -1,5 +1,6 @@
 main {
-    margin: 0 auto;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 section {
@@ -34,11 +35,11 @@ article p {
 }
 
 .intro-wrap {
-    margin: 25px 20%;
+    margin: 25px auto;
 }
 
 .content-wrap {
-    margin: 20px 15%;
+    margin: 20px auto;
 }
 
 #aboutme-wrap {
