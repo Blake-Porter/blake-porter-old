@@ -9,7 +9,6 @@ section {
     text-align: center;
     height: auto;
     margin: 0 auto;
-    padding: 5px 25px;
 }
 
 section p {
@@ -20,7 +19,8 @@ section p {
 article {
     margin: 10px auto;
     height: auto;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 article ul {
@@ -36,6 +36,7 @@ article p {
 
 .intro-wrap {
     margin: 25px auto;
+    padding: 20px;
 }
 
 .content-wrap {
