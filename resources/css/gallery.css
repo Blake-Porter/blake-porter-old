@@ -44,8 +44,12 @@ img {
     #pictures .column {
         display: block;
         margin: 10px auto;
-        max-width: 400px;
-        width: 90vw;
+        width: fit-content;
+    }
+
+    #pictures .column img {
+        max-width: 350px;
+        width: auto;
         height: auto;
     }
 }
