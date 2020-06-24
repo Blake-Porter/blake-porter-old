@@ -1,3 +1,7 @@
+main {
+    margin: 0 auto;
+}
+
 section {
     font-size: 25px;
     max-width: 1000px;
@@ -35,11 +39,6 @@ article p {
 
 .content-wrap {
     margin: 20px 15%;
-}
-
-a, a:visited {
-    color: rgb(110, 115, 121);
-    font-weight: 600;
 }
 
 #aboutme-wrap {

@@ -27,6 +27,11 @@ nav li a:hover {
     background-color: rgba(91, 95, 100, .8);
 }
 
+.p-link a, .p-link a:visited {
+    color: rgb(110, 115, 121);
+    font-weight: 600;
+}
+
 .nav-horizontal li {
     display: inline-block;
     padding-bottom: 5px;
