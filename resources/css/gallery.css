@@ -37,6 +37,10 @@ img {
 }
 
 @media only screen and (max-width: 975px) {
+    header {
+        margin: 5%;
+    }
+    
     .location-block {
         margin: 0 auto;
     }
