@@ -52,8 +52,8 @@ img {
     }
 
     #pictures .column img {
-        max-width: 350px;
-        width: auto;
+        max-width: 400px;
+        width: 80vw;
         height: auto;
     }
 }
