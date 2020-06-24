@@ -37,6 +37,11 @@ article p {
     margin: 20px 15%;
 }
 
+a, a:visited {
+    color: rgb(110, 115, 121);
+    font-weight: 600;
+}
+
 #aboutme-wrap {
     padding: 10px 15px;
 }
