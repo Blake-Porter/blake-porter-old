@@ -41,11 +41,11 @@ img {
         margin: 0 auto;
     }
 
-    .column {
+    #pictures .column {
         display: block;
-        margin: 0 5%;
+        margin: 10px auto;
         max-width: 400px;
-        width: auto;
+        width: 90vw;
         height: auto;
     }
 }
