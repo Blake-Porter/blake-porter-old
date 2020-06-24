@@ -67,6 +67,11 @@ article p {
 }
 
 @media only screen and (max-width: 1000px) {
+    main {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
     .intro-wrap {
         margin: 10px 8%;
     }
