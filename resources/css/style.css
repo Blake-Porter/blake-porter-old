@@ -150,6 +150,7 @@ p {
     header {
         margin-left: 5%;
         margin-right: 5%;
+        overflow: hidden;
     }
     
     nav {
@@ -159,6 +160,7 @@ p {
     h1 {
         margin: 20px auto;
         text-align: center;
+        padding: 10px;
     }
 
     nav ul {
