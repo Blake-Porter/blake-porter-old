@@ -42,7 +42,11 @@ img {
     }
     
     .location-block {
-        margin: 0 auto;
+        margin: 0px auto 15px auto;
+    }
+
+    .picture-set {
+        padding-bottom: 50px;
     }
 
     #pictures .column {
