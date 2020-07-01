@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 10px
+}
+
+h4 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+
+nav ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav p {
+    float: left;
+    margin-top: 2px;
+    margin-left: 2%;
+    padding: 15px 25px;
+}
+
+nav li a {
+    display: block;
+    padding: 15px;
+}
+
+nav li a:hover {
+    background-color: rgba(212, 106, 49, .8);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../images/fox_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 450px;
+    border-top: #d46a31 solid 5px;
+    border-bottom: #d46a31 solid 10px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.quicklink-content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.column {
+    display: inline-block;
+    margin: 20px
+}
+
+.nav-horizontal li {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.style {
+    color: #ffffff;
+    background-color: rgb(43, 44, 46);
+}
+
+.fit {
+    width: fit-content;
+}
+
+.none {
+    text-decoration: none;
+    color: inherit;
+}
