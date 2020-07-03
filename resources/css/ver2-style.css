@@ -37,6 +37,24 @@ nav li a:hover {
     background-color: rgba(212, 106, 49, .8);
 }
 
+.nav-menu-label {
+    display: none;
+    padding-bottom: 25px;
+    margin-bottom: 100px;
+}
+
+.menu-bar {
+    width: 35px;
+    height: 4px;
+    background-color: #d46a31;
+    margin: 6px auto;
+    
+}
+
+#menu-toggle, .nav-menu-mobile {
+    display: none;
+}
+
 /* Index Page */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/fox_banner.jpg");
@@ -107,8 +125,46 @@ nav li a:hover {
     color: inherit;
 }
 
+.menu-border {
+    border: #d46a31 solid 2px;
+}
+
+.bb-none {
+    border-bottom: none;
+}
+
 
 @media only screen and (max-width: 1050px) {
+    .nav-menu-mobile {
+        display: block;
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .nav-menu-mobile li {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .nav-menu-label {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+    #menu-toggle:checked + .nav-menu-mobile {
+        height: 270px;
+    }
+    
+    label {
+        margin-bottom: 10px;
+        height: 20px;
+        display: inline-block;
+    }
+
     nav p {
         float: none;
         text-align: center;
@@ -119,7 +175,10 @@ nav li a:hover {
         display: list-item;
         text-align: center;
     }
-    
+
+    .nav-menu-desktop {
+        display: none;
+    }
     
     .hero-text {
         color: white;
