@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    padding: 10px 0;
+    position: relative;;
 }
 
 nav ul {
@@ -34,7 +34,12 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgba(212, 106, 49, .8);
+    background-color: rgba(212, 106, 49, .85);
+}
+
+.nav-bar {
+    background-color: rgba(43, 44, 46, 0.7);
+    border-bottom: rgb(212, 106, 49) solid 5px;
 }
 
 .nav-menu-label {
@@ -48,7 +53,6 @@ nav li a:hover {
     height: 4px;
     background-color: #d46a31;
     margin: 6px auto;
-    
 }
 
 #menu-toggle, .nav-menu-mobile {
@@ -57,20 +61,19 @@ nav li a:hover {
 
 /* Index Page */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/fox_banner.jpg");
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/fox_navhero.jpg");
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height: 450px;
-    border-top: #d46a31 solid 5px;
     border-bottom: #d46a31 solid 10px;
 }
 
 .hero-text {
-    text-align: center;
     position: absolute;
-    top: 45%;
+    width: 250px;
+    top: 50%;
     left: 15%;
     transform: translate(-50%, -50%);
     color: white;
@@ -134,7 +137,7 @@ nav li a:hover {
 }
 
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1032px) {
     .nav-menu-mobile {
         display: block;
         height: 0;
@@ -157,6 +160,10 @@ nav li a:hover {
 
     #menu-toggle:checked + .nav-menu-mobile {
         height: 270px;
+    }
+
+    #menu-toggle:checked ~ .hero-text {
+        visibility: hidden;
     }
     
     label {
