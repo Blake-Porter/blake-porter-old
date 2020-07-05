@@ -140,7 +140,7 @@ nav li a:hover {
 
 @media only screen and (max-width: 1032px) {
     .hero-image {
-        height: 400px;
+        height: 450px;
     }
     
     .hero-text {
@@ -179,7 +179,7 @@ nav li a:hover {
     }
 }
 
-@media only screen and (max-width: 645px) {
+@media only screen and (max-width: 657px) {
     .nav-menu-mobile {
         display: block;
         height: 0;
