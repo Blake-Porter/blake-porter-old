@@ -90,6 +90,7 @@ nav li a:hover {
     font-size: 25px;
     padding: 10px;
 }
+
 .quicklink-content {
     display: flex;
     justify-content: space-between;
@@ -165,6 +166,10 @@ nav li a:hover {
     #menu-toggle:checked ~ .hero-text {
         visibility: hidden;
     }
+
+    #menu-toggle:not(:checked) ~ .hero-text {
+        transition-delay: 0.2s;
+    }
     
     label {
         margin-bottom: 10px;
@@ -198,6 +203,16 @@ nav li a:hover {
         left: 50%;
         transform: translate(-50%, 0);
         margin: 0 auto;
+        padding: 5px;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+        padding: 5px
+    }
+    
+    .hero-text p {
+        font-size: 18px;
         padding: 5px;
     }
 
