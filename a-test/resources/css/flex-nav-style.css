@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+body:after {
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/kitsune_169.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Navigation */
+.nav-full {
+    margin-left: 8%;
+    margin-top: 150px;
+    height: 250px;
+    width: 20%;
+    min-width: 150px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-full h1 {
+    font-size: 40px;
+    padding: 10px 40px;
+}
+
+.nav-full h2 {
+    font-size: 30px;
+    padding: 5px
+}
+
+.nav-link {
+    height: 20%;
+    margin: 5px 0;
+}
+
+.nav-link:hover {
+    background: rgba(167, 85, 41, 0.9);
+}
+
+.nav-link:hover::before {
+    background: rgb(31, 40, 51)
+}
+
+.nav-link a {
+    font-size: 20px;
+    display: inline-block;
+    width:100%;
+    height:100%;
+    padding: 15px;
+    padding-left: 15%;
+}
+
+/* Quick Styling Classes */
+.text-style {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.gradient-background {
+    background: linear-gradient(145deg, rgba(223, 115, 58, .8), rgba(31, 40, 51, .8) 20% 80%, rgba(223, 115, 58, .8));
+}
+
+.border {
+    border: black solid 2px;
+}
+
+.fit {
+    width: fit-content;
+}
+
+.none {
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
