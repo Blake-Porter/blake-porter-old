@@ -377,7 +377,7 @@ p {
     }
 
     .picture-set img {
-        max-width: 100%;
+        max-width: 300px;
     }
 }
 
@@ -441,8 +441,6 @@ p {
 .justify {
     text-align: justify;
 }
-
-
 
 .border-bottom {
     border-bottom: black solid 2px;
