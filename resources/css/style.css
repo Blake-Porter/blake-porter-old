@@ -137,10 +137,6 @@ nav {
 
 
 /* Gallery */
-
-#pictures {
-    margin: 0 5vw;
-}
 #pictures a {
     color: inherit;
     text-decoration: none;  
@@ -373,7 +369,7 @@ p {
 
     /* Gallery */
     #pictures {
-        margin: 5px auto;
+        margin: 0;
     }
     
     .location-block {
