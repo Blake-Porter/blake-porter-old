@@ -133,6 +133,10 @@ nav {
 }
 
 /* Gallery */
+#pictures {
+    padding: 10px 2vw;
+}
+
 #pictures a {
     color: inherit;
     text-decoration: none;  
@@ -372,7 +376,7 @@ p {
     .location-block {
         margin: 3% auto;
     }
-    
+
     .picture-set img {
         width: 100%;
         object-fit: contain;
