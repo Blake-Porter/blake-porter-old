@@ -377,7 +377,7 @@ p {
     }
 
     .picture-set img {
-        max-width: 300px;
+        width: 200px;
     }
 }
 
