@@ -52,7 +52,8 @@ nav {
 }
 .logo h5 {
     font-size: 23px;
-    padding-left: 15px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 .nav-links {
@@ -67,14 +68,19 @@ nav {
 
 .nav-links a {
     color: inherit;
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 10px;
 }
 
 .nav-links a:hover {
-    background: rgba(191, 115, 74, .8);
+    text-decoration: underline rgb(223, 223, 223);
+    font-weight: 600;
+}
+
+#home .nav-links {
+    min-height: 190px;
 }
 
 #home .nav-links a:hover {
@@ -104,7 +110,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    top: 3vh;
+    top: 10vh;
     min-height: 50px;
     margin-left: 5%;
 }
@@ -120,7 +126,7 @@ nav {
 #home .nav-links {
     flex-direction: column;
     justify-content: space-around;
-    height: 40vh;
+    height: 30vh;
     width: 50%;
     min-width: 0;
     margin-bottom: 0;
@@ -144,15 +150,22 @@ nav {
 
 #pictures a:hover {
     color: inherit;
-    text-decoration: underline rgb(233, 233, 233);   
+    text-decoration: underline rgb(233, 233, 233);
 }
 
 .location-block {
+    background-color: rgba(31, 40, 51, .90);
     display: block;
     font-size: 35px;
     width: fit-content;
     margin-left: 3%;
     margin-top: 3vh;
+}
+
+.location-block:hover {
+    color: inherit;
+    text-decoration: underline rgb(233, 233, 233);
+    background-color: rgba(223, 115, 58, .8)
 }
 
 .location-block h3 {
@@ -168,6 +181,11 @@ nav {
 
 .picture-set figure {
     margin: 10px;
+    background-color: rgba(31, 40, 51, .90)
+}
+
+.picture-set figure:hover {
+    background-color: rgba(223, 115, 58, .8);
 }
 
 .picture-set img {
@@ -208,10 +226,13 @@ article p {
 
 #aboutme-wrap {
     padding: 10px 15px;
+    background-color: rgba(31, 40, 51, .90);
+    min-height: 440px;
 }
 
 #aboutme-wrap p {
     padding-top: 5px;
+    
 }
 
 #aboutme-pic img {
@@ -228,6 +249,30 @@ article p {
     float: right;
     margin: 20px 50px 10px 20px;
     text-align: center;
+}
+/* English */
+#english h1, #english h2{
+    text-align: center;
+    width: fit-content;
+    margin: 25px auto;
+    padding: 0 20px;
+    line-height: 2em;
+}
+
+.teacher-profile {
+    margin: 0 auto;
+    left: 10vw;
+    word-wrap: break-word;
+    height: 500px;
+    padding: 10px 25px;
+    font-size: 18px;
+    line-height: 1.75em;
+    letter-spacing: .15em;
+}
+
+.teacher-profile figure {
+    float: right;
+    padding: 0 30px;
 }
 
 /* Other Sections */
@@ -280,7 +325,7 @@ p {
 
 /* Mobile*/
 
-@media only screen and (max-width:795px) {
+@media only screen and (max-width:775px) {
     body {
         overflow-x: hidden;
     }
@@ -416,6 +461,10 @@ p {
 .text-style {
     font-family: 'Poppins', sans-serif;
     color: rgb(223, 223, 223);
+    
+}
+
+.text-background {
     background-color: rgba(31, 40, 51, .90);
 }
 
@@ -438,6 +487,10 @@ p {
 
 .center {
     text-align: center;
+}
+
+.flex {
+    display: flex;
 }
 
 .justify {
