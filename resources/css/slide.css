@@ -1,7 +1,24 @@
 /* Navigation */
-.slide li {
-    margin-top: 5%;
+#slide ul {
+    display: block;
+}
+#slide li {
+    margin-top: 5vh;
     display: inline-block;
+    padding: 0 15px;  
+}
+
+#slide a {
+    background-color: rgba(0 , 0, 0, .25);
+    color: inherit;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#slide a:hover {
+    background: rgba(191, 115, 74, .8);
 }
 
 /* Slideshow container */
@@ -94,8 +111,18 @@
     background-color: #bbb;
 }
 
+@media only screen and (max-width: 775px) {
+    #slide nav {
+        background-color: transparent;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .text {
         font-size: 15px;
+    }
+
+    #slide nav {
+        background-color: transparent;
     }
 }
