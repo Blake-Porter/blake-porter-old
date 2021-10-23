@@ -456,6 +456,13 @@ p {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+/* Google Maps*/
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
 
 /* Quick Style Classes*/
 .text-style {

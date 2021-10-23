@@ -1,0 +1,65 @@
+/* Old Posts Sidebar */
+
+.line {
+    background: linear-gradient(135deg, rgba(223, 115, 58, .8), rgba(31, 40, 51, .8) 95%);
+    height: 3px;
+}
+
+#post-history {
+    display: inline-block;
+    vertical-align: top;
+    width: 20vw;
+    padding-left: 5vw;
+}
+
+#post-history h3 {
+    text-align: center;
+}
+
+#post-history ul {
+    padding: 5px 5px;
+    text-align: center;
+    list-style-position: inside;
+    list-style-type:square
+}
+
+#post {
+    display: inline-block;
+    width: 65vw;
+    padding: 5wv;
+}
+
+.google-maps {
+    text-align: right;
+}
+
+.wrapper {
+    text-align: right;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1px;
+    height: 30vh;
+    width: 35vw;
+    background: linear-gradient(#222, #222), 
+                linear-gradient(to bottom, rgba(223, 115, 58, .8), rgba(31, 40, 51), rgba(223, 115, 58, .8));
+    border: 5px solid transparent;
+    background-repeat: no-repeat;
+    background-origin: padding-box, border-box;
+  }
+  
+.wrapper--rounded {
+    border-radius: 1vw;
+    border-width: 10px;
+    position: relative;
+}
+  
+.wrapper--rounded::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    border: 6px solid #222;
+    border-radius: .8vw;
+}
