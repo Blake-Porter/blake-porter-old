@@ -21,7 +21,7 @@
     padding: 5px 5px;
     text-align: center;
     list-style-position: inside;
-    list-style-type:square
+    list-style-type: square;
 }
 
 #post {
@@ -30,21 +30,24 @@
     margin: 0 auto;
 }
 
-#post .content {
-    display: inline-block;
-    width: fit-content;
+#post .rank {
     margin-top: 3vh;
+}
+
+#post .rank p {
+    display: block;
+}
+
+#post iframe {
+    margin: 0 auto;
+    height: 100%;
 }
 
 #post h4 {
     text-align: center;
     padding: 10px;
-    margin-top: 10px;
-}
-
-#post .content figure {
-    float: right;
-    margin-left: 20px;
+    padding-bottom: 0;
+    font-size: 36px;
 }
 
 .google-maps {
