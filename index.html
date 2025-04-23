@@ -4,42 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Inspiring travelers with vivid photography, thoughtful itineraries & immersive storytelling.">
-  <title>Blake-Porter.com: Home</title>
+  <title>Blake-Porter.com</title>
   <link rel="stylesheet" href="resources/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header id="home">
-    <nav>
-      <div class="logo">
-        <h4 class="text-style text-background">Blake Porter</h4>
-        <div class="sublogo text-style text-background"><h5>Photographer</h5></div>
-      </div>
+  <header id="site-header">
+    <nav class="container">
+      <a href="index.html" class="logo text-style">
+        <h1>Blake Porter</h1>
+        <p>Photographer</p>
+      </a>
       <ul class="nav-links">
-        <li><a class="text-style text-background" href="gallery.html">Gallery</a></li>
-        <li><a class="text-style text-background" href="blog.html">Blog</a></li>
-        <li><a class="text-style text-background" href="aboutme.html">About Me</a></li>
-        <li><a class="text-style text-background" href="services.html">Services</a></li>
-        <li class="space"></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
       </ul>
-      <div class="burger">
-        <div class="line1"></div><div class="line2"></div><div class="line3"></div>
-      </div>
+      <button class="burger" aria-label="Toggle menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
     </nav>
   </header>
 
   <main>
+    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-text text-style">
-        <h1>“Blake-Porter.com inspires curious travelers through vivid photography, thoughtful itineraries and immersive storytelling—equipping adventurers to see the world more deeply.”</h1>
-        <a href="gallery.html" class="btn">Explore the Gallery</a>
+        <h2>“Blake-Porter.com inspires curious travelers through vivid photography, thoughtful itineraries and immersive storytelling—equipping adventurers to see the world more deeply.”</h2>
+        <a href="gallery.html" class="btn">View Gallery</a>
+      </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section class="gallery-preview container">
+      <h3>Featured Photos</h3>
+      <div class="preview-grid">
+        <a href="gallery.html"><img src="resources/images/kitsune_169.jpg" alt="Kitsune"></a>
+        <a href="gallery.html"><img src="resources/images/sequoia_camping.jpg" alt="Sequoia Camping"></a>
+        <a href="gallery.html"><img src="resources/images/enoshima_fuji.jpg" alt="Enoshima Fuji"></a>
+        <a href="gallery.html"><img src="resources/images/chicago_night.jpg" alt="Chicago Night"></a>
+        <a href="gallery.html"><img src="resources/images/ninhbinh_temple.jpg" alt="Ninh Binh Temple"></a>
+        <a href="gallery.html"><img src="resources/images/hongkong_buddha.jpg" alt="Hong Kong Buddha"></a>
       </div>
     </section>
   </main>
 
-  <footer class="footer-home text-style text-background">
-    <p>Contact: <a href="mailto:blake@blake-porter.com">blake@blake-porter.com</a></p>
+  <footer class="footer-home text-style">
+    <div class="container">
+      <p>&copy; 2025 Blake Porter | <a href="mailto:blake@blake-porter.com">blake@blake-porter.com</a></p>
+      <ul class="social-links">
+        <li><a href="https://instagram.com/yourhandle" target="_blank">Instagram</a></li>
+        <li><a href="https://twitter.com/yourhandle" target="_blank">Twitter</a></li>
+        <li><a href="https://linkedin.com/in/yourhandle" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
   </footer>
 
   <script src="resources/js/app.js"></script>
