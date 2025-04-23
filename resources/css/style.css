@@ -547,14 +547,19 @@ p {
     color: #bf744b;
     font-weight: 600;
 }
-/* ── Hero Section ───────────────────────────────────────────────────────── */
-
+/* Hero Section */
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 8vh); /* full viewport minus nav */
+  width: 100%;
+  min-height: 70vh;           /* fill most of viewport */
   padding: 2rem;
+  background-color: #083F5D;  /* fallback solid */
+  /* Uncomment & update if you have a background image:
+  background: url('../images/hero-bg.jpg') center/cover no-repeat;
+  */
+  box-sizing: border-box;
 }
 
 .hero-text {
@@ -569,15 +574,5 @@ p {
   font-size: 2rem;
   line-height: 1.4;
   color: #fff;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 1.25rem;
-  padding: 0.75rem 1.5rem;
-  background: #bf744b;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  border-radius: 4px;
+  margin: 0;
 }
